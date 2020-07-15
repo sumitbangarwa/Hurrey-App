@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BBE1751CEF43453759CFE3E /* Pods_Hurrey_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7B9D29092C2B04677584CC /* Pods_Hurrey_App.framework */; };
+		B6152BAF24BF5F8100F02596 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6152BAE24BF5F8100F02596 /* MapVC.swift */; };
+		B6152BB124BF67BA00F02596 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6152BB024BF67BA00F02596 /* SceneDelegate.swift */; };
+		B65F6C7124BCE70100E38E97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65F6C7024BCE70100E38E97 /* AppDelegate.swift */; };
+		B65F6C7824BCE70100E38E97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65F6C7624BCE70100E38E97 /* Main.storyboard */; };
+		B65F6C7B24BCE70100E38E97 /* Hurrey_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B65F6C7924BCE70100E38E97 /* Hurrey_App.xcdatamodeld */; };
+		B65F6C7D24BCE70500E38E97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65F6C7C24BCE70500E38E97 /* Assets.xcassets */; };
+		B65F6C8024BCE70500E38E97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65F6C7E24BCE70500E38E97 /* LaunchScreen.storyboard */; };
+		B65F6C8924BCE92400E38E97 /* ClassListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65F6C8824BCE92400E38E97 /* ClassListVC.swift */; };
+		B65F6C8B24BCE99B00E38E97 /* ClassListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65F6C8A24BCE99B00E38E97 /* ClassListTableCell.swift */; };
+		B65F6C8E24BCE9EC00E38E97 /* StudentListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65F6C8D24BCE9EC00E38E97 /* StudentListVC.swift */; };
+		B65F6C9024BCEA2500E38E97 /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65F6C8F24BCEA2500E38E97 /* StudentTableViewCell.swift */; };
+		B65F6C9324BCEA3800E38E97 /* studentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65F6C9224BCEA3800E38E97 /* studentModel.swift */; };
+		B65F6C9724BCF6EB00E38E97 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65F6C9624BCF6EB00E38E97 /* Generics.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B7B9D29092C2B04677584CC /* Pods_Hurrey_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hurrey_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D5BE76796B00B3CBA117537 /* Pods-Hurrey App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hurrey App.debug.xcconfig"; path = "Target Support Files/Pods-Hurrey App/Pods-Hurrey App.debug.xcconfig"; sourceTree = "<group>"; };
+		B6152BAE24BF5F8100F02596 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		B6152BB024BF67BA00F02596 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B65F6C6D24BCE70100E38E97 /* Hurrey App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hurrey App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65F6C7024BCE70100E38E97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B65F6C7724BCE70100E38E97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B65F6C7A24BCE70100E38E97 /* Hurrey_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hurrey_App.xcdatamodel; sourceTree = "<group>"; };
+		B65F6C7C24BCE70500E38E97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B65F6C7F24BCE70500E38E97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B65F6C8124BCE70500E38E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65F6C8824BCE92400E38E97 /* ClassListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassListVC.swift; sourceTree = "<group>"; };
+		B65F6C8A24BCE99B00E38E97 /* ClassListTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassListTableCell.swift; sourceTree = "<group>"; };
+		B65F6C8D24BCE9EC00E38E97 /* StudentListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentListVC.swift; sourceTree = "<group>"; };
+		B65F6C8F24BCEA2500E38E97 /* StudentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell.swift; sourceTree = "<group>"; };
+		B65F6C9224BCEA3800E38E97 /* studentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = studentModel.swift; sourceTree = "<group>"; };
+		B65F6C9624BCF6EB00E38E97 /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
+		F2488E8B76092ACB35A92148 /* Pods-Hurrey App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hurrey App.release.xcconfig"; path = "Target Support Files/Pods-Hurrey App/Pods-Hurrey App.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B65F6C6A24BCE70100E38E97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BBE1751CEF43453759CFE3E /* Pods_Hurrey_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74A66F1353C34E885AC9D4B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B7B9D29092C2B04677584CC /* Pods_Hurrey_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B17C7CC557C5877FEE14F6B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D5BE76796B00B3CBA117537 /* Pods-Hurrey App.debug.xcconfig */,
+				F2488E8B76092ACB35A92148 /* Pods-Hurrey App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B65F6C6424BCE70100E38E97 = {
+			isa = PBXGroup;
+			children = (
+				B65F6C6F24BCE70100E38E97 /* Hurrey App */,
+				B65F6C6E24BCE70100E38E97 /* Products */,
+				B17C7CC557C5877FEE14F6B5 /* Pods */,
+				74A66F1353C34E885AC9D4B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B65F6C6E24BCE70100E38E97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B65F6C6D24BCE70100E38E97 /* Hurrey App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B65F6C6F24BCE70100E38E97 /* Hurrey App */ = {
+			isa = PBXGroup;
+			children = (
+				B65F6C7024BCE70100E38E97 /* AppDelegate.swift */,
+				B6152BB024BF67BA00F02596 /* SceneDelegate.swift */,
+				B65F6C7624BCE70100E38E97 /* Main.storyboard */,
+				B65F6C9124BCEA3800E38E97 /* Model */,
+				B65F6C8724BCE8DF00E38E97 /* Class List */,
+				B65F6C8C24BCE9C100E38E97 /* Student List */,
+				B6152BAE24BF5F8100F02596 /* MapVC.swift */,
+				B65F6C7C24BCE70500E38E97 /* Assets.xcassets */,
+				B65F6C7E24BCE70500E38E97 /* LaunchScreen.storyboard */,
+				B65F6C8124BCE70500E38E97 /* Info.plist */,
+				B65F6C7924BCE70100E38E97 /* Hurrey_App.xcdatamodeld */,
+			);
+			path = "Hurrey App";
+			sourceTree = "<group>";
+		};
+		B65F6C8724BCE8DF00E38E97 /* Class List */ = {
+			isa = PBXGroup;
+			children = (
+				B65F6C8824BCE92400E38E97 /* ClassListVC.swift */,
+				B65F6C8A24BCE99B00E38E97 /* ClassListTableCell.swift */,
+			);
+			path = "Class List";
+			sourceTree = "<group>";
+		};
+		B65F6C8C24BCE9C100E38E97 /* Student List */ = {
+			isa = PBXGroup;
+			children = (
+				B65F6C8D24BCE9EC00E38E97 /* StudentListVC.swift */,
+				B65F6C8F24BCEA2500E38E97 /* StudentTableViewCell.swift */,
+			);
+			path = "Student List";
+			sourceTree = "<group>";
+		};
+		B65F6C9124BCEA3800E38E97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B65F6C9224BCEA3800E38E97 /* studentModel.swift */,
+				B65F6C9624BCF6EB00E38E97 /* Generics.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B65F6C6C24BCE70100E38E97 /* Hurrey App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65F6C8424BCE70500E38E97 /* Build configuration list for PBXNativeTarget "Hurrey App" */;
+			buildPhases = (
+				74F5FA8E3024A185F5DDAF98 /* [CP] Check Pods Manifest.lock */,
+				B65F6C6924BCE70100E38E97 /* Sources */,
+				B65F6C6A24BCE70100E38E97 /* Frameworks */,
+				B65F6C6B24BCE70100E38E97 /* Resources */,
+				25B21B93237FFD77980BC47D /* [CP] Embed Pods Frameworks */,
+				1F70D83485697C17E317C70F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hurrey App";
+			productName = "Hurrey App";
+			productReference = B65F6C6D24BCE70100E38E97 /* Hurrey App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B65F6C6524BCE70100E38E97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Sumit Bangarwa";
+				TargetAttributes = {
+					B65F6C6C24BCE70100E38E97 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = B65F6C6824BCE70100E38E97 /* Build configuration list for PBXProject "Hurrey App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B65F6C6424BCE70100E38E97;
+			productRefGroup = B65F6C6E24BCE70100E38E97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B65F6C6C24BCE70100E38E97 /* Hurrey App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B65F6C6B24BCE70100E38E97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65F6C8024BCE70500E38E97 /* LaunchScreen.storyboard in Resources */,
+				B65F6C7D24BCE70500E38E97 /* Assets.xcassets in Resources */,
+				B65F6C7824BCE70100E38E97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F70D83485697C17E317C70F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hurrey App/Pods-Hurrey App-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hurrey App/Pods-Hurrey App-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hurrey App/Pods-Hurrey App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25B21B93237FFD77980BC47D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hurrey App/Pods-Hurrey App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hurrey App/Pods-Hurrey App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hurrey App/Pods-Hurrey App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74F5FA8E3024A185F5DDAF98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hurrey App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B65F6C6924BCE70100E38E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65F6C7124BCE70100E38E97 /* AppDelegate.swift in Sources */,
+				B65F6C7B24BCE70100E38E97 /* Hurrey_App.xcdatamodeld in Sources */,
+				B65F6C8E24BCE9EC00E38E97 /* StudentListVC.swift in Sources */,
+				B65F6C9724BCF6EB00E38E97 /* Generics.swift in Sources */,
+				B65F6C8B24BCE99B00E38E97 /* ClassListTableCell.swift in Sources */,
+				B6152BB124BF67BA00F02596 /* SceneDelegate.swift in Sources */,
+				B65F6C9024BCEA2500E38E97 /* StudentTableViewCell.swift in Sources */,
+				B65F6C9324BCEA3800E38E97 /* studentModel.swift in Sources */,
+				B6152BAF24BF5F8100F02596 /* MapVC.swift in Sources */,
+				B65F6C8924BCE92400E38E97 /* ClassListVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B65F6C7624BCE70100E38E97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B65F6C7724BCE70100E38E97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B65F6C7E24BCE70500E38E97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B65F6C7F24BCE70500E38E97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B65F6C8224BCE70500E38E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B65F6C8324BCE70500E38E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B65F6C8524BCE70500E38E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D5BE76796B00B3CBA117537 /* Pods-Hurrey App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7V5578ZPN;
+				INFOPLIST_FILE = "Hurrey App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumit.Hurrey-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B65F6C8624BCE70500E38E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2488E8B76092ACB35A92148 /* Pods-Hurrey App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7V5578ZPN;
+				INFOPLIST_FILE = "Hurrey App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumit.Hurrey-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B65F6C6824BCE70100E38E97 /* Build configuration list for PBXProject "Hurrey App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65F6C8224BCE70500E38E97 /* Debug */,
+				B65F6C8324BCE70500E38E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B65F6C8424BCE70500E38E97 /* Build configuration list for PBXNativeTarget "Hurrey App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65F6C8524BCE70500E38E97 /* Debug */,
+				B65F6C8624BCE70500E38E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B65F6C7924BCE70100E38E97 /* Hurrey_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B65F6C7A24BCE70100E38E97 /* Hurrey_App.xcdatamodel */,
+			);
+			currentVersion = B65F6C7A24BCE70100E38E97 /* Hurrey_App.xcdatamodel */;
+			path = Hurrey_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B65F6C6524BCE70100E38E97 /* Project object */;
+}
