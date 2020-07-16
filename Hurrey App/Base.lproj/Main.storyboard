@@ -128,7 +128,7 @@
                         <viewLayoutGuide key="safeArea" id="CTG-u0-IpT"/>
                     </view>
                     <navigationItem key="navigationItem" title="Class List" id="7uj-9w-Zcv">
-                        <barButtonItem key="rightBarButtonItem" title="Item" style="plain" id="KIH-3u-opn">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="KIH-3u-opn">
                             <connections>
                                 <action selector="mapClustring:" destination="xvq-PI-dbd" id="Apc-Vu-ned"/>
                             </connections>
@@ -260,7 +260,7 @@
                         <viewLayoutGuide key="safeArea" id="SAb-Oh-Ab5"/>
                     </view>
                     <navigationItem key="navigationItem" title="Student List" id="XnB-8s-Ut4">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="vDT-Qo-OYt"/>
+                        <barButtonItem key="rightBarButtonItem" id="vDT-Qo-OYt"/>
                     </navigationItem>
                     <connections>
                         <outlet property="studentTable" destination="sUi-yc-pGE" id="bdN-Vn-MnZ"/>
