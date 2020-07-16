@@ -17,14 +17,19 @@ class MapVC: UIViewController {
     var long = Double()
     
     
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print("MAP", lat , long)
-
         googleMap.delegate = self
         
-        let locCamera = GMSCameraPosition.camera(withLatitude: 28.7041 , longitude: long, zoom: 10)
+        let roundedLat = Double(lat).rounded(toPlaces: 6)
+        let roundedLong = Double(long).rounded(toPlaces: 6)
+        print("MAP",roundedLat, roundedLong)
+        
+        let locCamera = GMSCameraPosition.camera(withLatitude: roundedLat , longitude: roundedLong, zoom: 10)
         googleMap.camera = locCamera
         
         showMarker(position: googleMap.camera.target)

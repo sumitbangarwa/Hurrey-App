@@ -11,6 +11,7 @@ target 'Hurrey App' do
     pod 'SwiftyJSON'
       pod 'GoogleMaps'
       pod 'GooglePlaces'
+      pod 'Google-Maps-iOS-Utils'
     
     
 end

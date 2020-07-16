@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5BBE1751CEF43453759CFE3E /* Pods_Hurrey_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7B9D29092C2B04677584CC /* Pods_Hurrey_App.framework */; };
+		B60FA4F624BFB9A5001A6837 /* AppExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60FA4F524BFB9A5001A6837 /* AppExtensions.swift */; };
 		B6152BAF24BF5F8100F02596 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6152BAE24BF5F8100F02596 /* MapVC.swift */; };
 		B6152BB124BF67BA00F02596 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6152BB024BF67BA00F02596 /* SceneDelegate.swift */; };
 		B65F6C7124BCE70100E38E97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65F6C7024BCE70100E38E97 /* AppDelegate.swift */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		2B7B9D29092C2B04677584CC /* Pods_Hurrey_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hurrey_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D5BE76796B00B3CBA117537 /* Pods-Hurrey App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hurrey App.debug.xcconfig"; path = "Target Support Files/Pods-Hurrey App/Pods-Hurrey App.debug.xcconfig"; sourceTree = "<group>"; };
+		B60FA4F524BFB9A5001A6837 /* AppExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExtensions.swift; sourceTree = "<group>"; };
 		B6152BAE24BF5F8100F02596 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		B6152BB024BF67BA00F02596 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B65F6C6D24BCE70100E38E97 /* Hurrey App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hurrey App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +107,7 @@
 				B65F6C7E24BCE70500E38E97 /* LaunchScreen.storyboard */,
 				B65F6C8124BCE70500E38E97 /* Info.plist */,
 				B65F6C7924BCE70100E38E97 /* Hurrey_App.xcdatamodeld */,
+				B60FA4F524BFB9A5001A6837 /* AppExtensions.swift */,
 			);
 			path = "Hurrey App";
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				B65F6C9324BCEA3800E38E97 /* studentModel.swift in Sources */,
 				B6152BAF24BF5F8100F02596 /* MapVC.swift in Sources */,
 				B65F6C8924BCE92400E38E97 /* ClassListVC.swift in Sources */,
+				B60FA4F624BFB9A5001A6837 /* AppExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

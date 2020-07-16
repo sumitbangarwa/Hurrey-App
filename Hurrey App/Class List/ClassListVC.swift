@@ -22,6 +22,7 @@ class ClassListVC: UIViewController {
         super.viewDidLoad()
 
        callingAPI()
+        
     }
     
 
@@ -39,6 +40,8 @@ class ClassListVC: UIViewController {
 
                 let classesList = jsonResposne["classes"].arrayValue
                 print("classesLSIT: \(classesList)")
+            
+            let a = jsonResposne["classes"]["students"]
 
                 if classesList == [] {
                                  print("list empty")
@@ -63,6 +66,18 @@ class ClassListVC: UIViewController {
         
         
     }
+    
+    @IBAction func mapClustring(_ sender: Any) {
+        
+               let mapClustringVC = self.storyboard?.instantiateViewController(identifier: "MapVC") as! MapVC
+               
+//               mapClustringVC.lat =
+//               mapClustringVC.className = arrdata[indexPath.row].name
+               self.navigationController?.pushViewController(mapClustringVC, animated: true)
+        
+    }
+    
+    
 }
 
 

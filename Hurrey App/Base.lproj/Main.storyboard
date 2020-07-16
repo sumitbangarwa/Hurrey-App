@@ -17,7 +17,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zOx-RA-ZAO">
                                 <rect key="frame" x="0.0" y="88" width="375" height="724"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="375" id="E2B-g6-cMa"/>
                                 </constraints>
@@ -127,7 +127,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="CTG-u0-IpT"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Class List" id="7uj-9w-Zcv"/>
+                    <navigationItem key="navigationItem" title="Class List" id="7uj-9w-Zcv">
+                        <barButtonItem key="rightBarButtonItem" title="Item" style="plain" id="KIH-3u-opn">
+                            <connections>
+                                <action selector="mapClustring:" destination="xvq-PI-dbd" id="Apc-Vu-ned"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="SchoolTable" destination="zOx-RA-ZAO" id="57L-Fb-MkW"/>
                         <segue destination="HO8-S2-M18" kind="push" identifier="studentsDetails" id="FW7-5R-MuG"/>
@@ -147,7 +153,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sUi-yc-pGE">
                                 <rect key="frame" x="0.0" y="88" width="375" height="724"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" red="0.98431372549019602" green="1" blue="0.63137254901960782" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="375" id="70H-7U-Rpf"/>
                                 </constraints>
@@ -175,6 +181,7 @@
                                                         </label>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SAO-Ko-GDm">
                                                             <rect key="frame" x="267" y="38" width="70" height="30"/>
+                                                            <color key="backgroundColor" red="0.85281866220000002" green="0.85139885339999999" blue="0.87619937709999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="30" id="e9m-vU-VDg"/>
                                                                 <constraint firstAttribute="width" constant="70" id="lkg-Ij-x60"/>
@@ -185,6 +192,7 @@
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dim-xl-sYE">
                                                             <rect key="frame" x="189" y="38" width="70" height="30"/>
+                                                            <color key="backgroundColor" red="0.85281866220000002" green="0.85139885339999999" blue="0.87619937709999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="70" id="q3U-wa-1UA"/>
                                                                 <constraint firstAttribute="height" constant="30" id="qaz-zQ-9um"/>
@@ -195,6 +203,7 @@
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="52g-3b-yCz">
                                                             <rect key="frame" x="111" y="38" width="70" height="30"/>
+                                                            <color key="backgroundColor" red="0.85281866220000002" green="0.85139885339999999" blue="0.87619937709999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="30" id="Wxq-t4-I7b"/>
                                                                 <constraint firstAttribute="width" constant="70" id="hDR-g6-ePZ"/>
@@ -204,7 +213,7 @@
                                                             </state>
                                                         </button>
                                                     </subviews>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                    <color key="backgroundColor" red="1" green="0.70832505141904589" blue="0.62566779887083235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstItem="E7M-vf-uR8" firstAttribute="top" secondItem="17o-0v-zZP" secondAttribute="top" constant="8" id="3CS-8O-Wtc"/>
                                                         <constraint firstAttribute="bottom" secondItem="dim-xl-sYE" secondAttribute="bottom" constant="8" id="Bck-8M-nd7"/>
@@ -218,6 +227,7 @@
                                                     </constraints>
                                                 </view>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.9839574566" green="1" blue="0.63014291739999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstItem="17o-0v-zZP" firstAttribute="top" secondItem="xxb-SL-29D" secondAttribute="topMargin" id="JBr-2I-y9P"/>
                                                 <constraint firstItem="17o-0v-zZP" firstAttribute="trailing" secondItem="xxb-SL-29D" secondAttribute="trailingMargin" id="KnE-MJ-qs4"/>
@@ -240,7 +250,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.9839574566" green="1" blue="0.63014291739999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="sUi-yc-pGE" secondAttribute="trailing" id="7if-ae-Pcr"/>
                             <constraint firstItem="sUi-yc-pGE" firstAttribute="leading" secondItem="92p-Gr-knk" secondAttribute="leading" id="JxB-vY-NEM"/>
@@ -249,7 +259,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="SAb-Oh-Ab5"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Student List" id="XnB-8s-Ut4"/>
+                    <navigationItem key="navigationItem" title="Student List" id="XnB-8s-Ut4">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="vDT-Qo-OYt"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="studentTable" destination="sUi-yc-pGE" id="bdN-Vn-MnZ"/>
                     </connections>
@@ -271,7 +283,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="P6Y-c2-Y9F" secondAttribute="trailing" constant="-20" id="1EY-EW-8de"/>
                             <constraint firstItem="P6Y-c2-Y9F" firstAttribute="top" secondItem="qgv-RE-Ayl" secondAttribute="topMargin" constant="-44" id="FBZ-E4-ysZ"/>
