@@ -24,6 +24,9 @@ class MapVC: UIViewController {
         super.viewDidLoad()
         
         googleMap.delegate = self
+        googleMap.settings.compassButton = true
+        googleMap.isMyLocationEnabled = true
+        googleMap.settings.myLocationButton = true
         
         let roundedLat = Double(lat).rounded(toPlaces: 6)
         let roundedLong = Double(long).rounded(toPlaces: 6)

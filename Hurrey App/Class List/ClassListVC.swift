@@ -21,6 +21,7 @@ class ClassListVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+    self.view.activityStartAnimating(activityColor: UIColor.systemRed, backgroundColor: UIColor.black.withAlphaComponent(0.6))
        callingAPI()
         
     }
@@ -34,7 +35,7 @@ class ClassListVC: UIViewController {
          Alamofire.request(Url, method: .get).responseJSON {
             (response) in
           if response.result.isSuccess {
-
+            self.view.activityStopAnimating()
                 let jsonResposne: JSON = JSON(response.result.value!)
 //                print("RESPONSE : ", schoolLIST)
 
